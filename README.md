@@ -1,6 +1,6 @@
 # SIPM (Sistem Informasi Penyewaan Mobil)
 
-Ini adalah aplikasi penyewaan mobil
+Ini adalah aplikasi penyewaan mobil, menggunakan Larave 10 dengan Splade (SPA) database mysql
 
 ## Cara Install
 
