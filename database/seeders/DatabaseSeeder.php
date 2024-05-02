@@ -8,16 +8,17 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
-    public function run(): void
-    {
-        Car::factory(10)->create();
+  /**
+   * Seed the application's database.
+   */
+  public function run(): void
+  {
+    Car::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-    }
+    \App\Models\User::factory()->create([
+      'name' => 'user',
+      'email' => 'user@gmail.com',
+      'password' => bcrypt('user123'),
+    ]);
+  }
 }

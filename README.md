@@ -39,3 +39,10 @@ npm run dev
 ```
 php artisan serve
 ```
+
+## Hak akses
+
+email : user@gmail.com
+password : user123
+
+Good Luck!
